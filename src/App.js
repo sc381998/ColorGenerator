@@ -27,7 +27,7 @@ function App() {
           <input
             type="text"
             value={color}
-            placeholder="#11012e"
+            placeholder="#f15025"
             className={`${error ? "error" : null}`}
             onChange={(e) => setColor(e.target.value)}
           />
